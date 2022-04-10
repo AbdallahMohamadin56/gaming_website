@@ -1,0 +1,194 @@
+body { margin: 0px; padding: 0px; }  * { font-family: arial ; } 
+div.maincontent 
+{ height: 940; 
+	background-image:url('background%20(1).jpg');
+	background-repeat: no-repeat ; width:1900px ; background-size: cover } 
+div.navbar { display: flex ; justify-content: center; align-items: center ; background: rgba(0 , 0, 0, 0.6 )} 
+div.joinnavbar {
+	background-color: black
+}
+
+
+div.navbar a 
+{ color: white ; margin: 20 ;}
+div.navbar a.join { padding: 10px; border-radius: 8px;  border: 2px solid white ; background-color: transparent; color: white; }
+div.details {  text-align: center; padding-top: 150px ; color: white ; align-items: center ;} 
+div.details  button{padding: 10px; border-radius: 8px;  border: 2px solid white ; background-color: white; color: darkturquoise; } div.games{ display: flex;width:60%; justify-content: space-around; align-items: center;}
+div.upcoming{ justify-content: center; }
+div.upcoming h1 {text-align: center;} 
+div
+div.game img { width: 120px; height: 120px; border-radius: 120px;}
+div.maingame { 
+	display: flex;
+	justify-content:center; 
+		align-items:center;
+		;width: 60%;
+	margin: auto;
+	background-color: black; 
+	color: white;
+    padding: 50px;
+	border-radius: 50 px ;
+	margin-top:  50px;
+	line-height: 23px;
+}
+div.maingame button { 
+padding: 10px;
+ background-color:aqua;
+color: white;
+border: none ;
+}
+div.maingame img {
+margin-right: -100;	
+border-radius: 20px;
+}
+div.postscontent  {
+	justify-content: center;
+	font-family: arial;
+	text-align: center;
+}
+div.posts {
+	display: flex;
+	width:70%; 
+	margin: auto;
+	justify-content: space-around; 
+	align-items: center;`		
+}
+div.post{
+	margin: 25px;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	
+}
+div.postscontent h1,div.postscontents  p {
+	text-align: center
+}
+div.post1 div.img {
+	background-image: url('post1.jpg')  ;
+	height: 180px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+div.post2 div.img {
+	background-image: url('post2.jpg')  ;
+	height: 180px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+div.post3 div.img {
+	background-image: url('post3.jpg')  ;
+	height: 180px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+div.post h3, div.post p,div.post h5{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div.post p{
+	font-size: 15px;
+}
+div.post h5, div.post p{
+display: inline-block;
+}
+ 
+.pricing h2 {
+	text-align: center;
+}
+
+.prices {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	
+}
+.price {
+	width: 30%;
+	background-color: darkcyan;
+	color: white;
+	margin: 8px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-radius: 8px;
+}
+.price button {
+	padding: 10px;
+ background-color:transparent;
+color: white;
+border: 1px solid white ;
+}
+
+.planprice {
+	background-color: darkblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.planprice h3 {
+	margin:0;  
+}
+
+.footer {
+text-align: center;
+padding: 8px;
+margin-top: 45px;
+background-color: aqua;
+color: white;
+}
+
+.joinform {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	width: 60%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.joinform .image{
+	width: 35%
+}
+.joinform .form {
+	width: 65%;
+}
+.joinform .image {
+	background-image:url(Fantasy1.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 400px;
+    padding: 15px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;}
+form inupt, form button {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid aqua;
+	border-radius: 5px;
+	display: block;
+	margin: 1opx;
+}
+form {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+form button {
+	background-color: blue;
+	color: white;
+}
+
+.footer {
+	color: black;
+	background-color: aqua;
+	text-align: center;
+	padding: 10px;
+	margin-top: 45px;
+	font-size: 30px;
+}
